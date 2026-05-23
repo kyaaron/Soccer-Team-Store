@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "frontend": "pnpm --filter frontend dev",
+    "dev:all": "pnpm dev & pnpm frontend"
   },
   "keywords": [],
   "author": "",
